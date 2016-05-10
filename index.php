@@ -1,4 +1,8 @@
 <?php
-foreach (range(1, 300,2 ) as $numeros) {
-    echo $numeros;
-}?>
+$min = 1;
+$max = 300;
+for ($i=$min; $i < $max; $i = $i+2)
+  echo $i;
+
+
+?>
